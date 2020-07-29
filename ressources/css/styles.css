@@ -1,0 +1,117 @@
+html {}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+aside {
+    background-color: #FFD700;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 30%;
+    max-width: 30%;
+}
+
+.a_propos {
+    padding-bottom: 550px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 50px;
+}
+
+.left {
+    display: block;
+    background-color: #000000;
+    color: #FFD700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.portrait {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    display: block;
+    border: 1px solid black;
+    background-size: 150px;
+    background-position-x: -250px;
+    background-position-y: 50px;
+    overflow: hidden;
+    margin: 20px auto 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li {
+    list-style-type: none;
+}
+
+.big {
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    padding: 50px 0px 0px 50px;
+}
+
+.title {
+    color: #FFD700;
+}
+
+.subtitle {
+    font-size: 1.4rem;
+}
+
+.under {
+    border-bottom: 3px solid #FFD700;
+}
+
+.for {
+    display: inline;
+    font-size: 30px;
+}
+
+.pad {
+    margin-left: 50px;
+    border-bottom: 3px solid #FFD700;
+    padding-right: 550px;
+    padding-bottom: 15px;
+}
+
+.style {
+    list-style-type: circle;
+    padding-bottom: 10px;
+    margin-right: 150px;
+}
+
+.reco {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 50px;
+}
+
+#reco_item {
+    margin-left: 300px;
+}
+
+.contacts h3 {
+    font-size: 1.04em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
