@@ -1,0 +1,32 @@
+@media all and (max-width: 600px) {
+    body {
+        flex-wrap: wrap;
+    }
+    aside,
+    main {
+        flex: 0 0 100%;
+    }
+    h1,
+    h2 {
+        text-align: center;
+    }
+    li {
+        padding-right: 30px;
+    }
+    .contacts li {
+        text-align: center;
+    }
+    .a_propos p {
+        text-align: center;
+    }
+    .pad {
+        margin-left: 0px;
+        border-top: 3px solid #FFD700;
+    }
+    .list li {
+        font-style: oblique;
+    }
+    .reco {
+        justify-content: space-around;
+    }
+}

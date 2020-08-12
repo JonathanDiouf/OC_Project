@@ -1,25 +1,43 @@
-html {}
+/* @media all and (max-width: 600px) {
+    body {
+        flex-direction: column;
+    }
+} */
 
 body {
     font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin: 0px;
 }
 
 aside {
     background-color: #FFD700;
     display: flex;
     flex-direction: column;
-    float: left;
+    border: 1px solid red;
+    flex: 0 0 30%;
+    /*float: left;
     width: 30%;
-    max-width: 30%;
+    max-width: 30%;*/
 }
 
-.a_propos {
-    padding-bottom: 550px;
+.loisirs {
+    margin-top: auto;
 }
+
+
+/* .a_propos {
+    padding-bottom: 550px;
+} */
 
 main {
     display: flex;
     flex-direction: column;
+    border: 1px solid blue;
+    flex: 0 0 70%;
 }
 
 .flex {
@@ -89,14 +107,13 @@ h1 {
 .pad {
     margin-left: 50px;
     border-bottom: 3px solid #FFD700;
-    padding-right: 550px;
     padding-bottom: 15px;
 }
 
 .style {
     list-style-type: circle;
     padding-bottom: 10px;
-    margin-right: 150px;
+    /*margin-right: 150px;*/
 }
 
 .reco {
@@ -115,3 +132,12 @@ h1 {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+.reco {
+    justify-content: space-between;
+}
+
+
+/*media screen and (min-width: 600px max-width: 1200px) {}
+
+@media screen and (min-width: 1200px) {}*/
