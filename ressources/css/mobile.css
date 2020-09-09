@@ -29,4 +29,17 @@
     .reco {
         justify-content: space-around;
     }
+    .flex {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .style {
+        text-align: center;
+        list-style-type: none;
+    }
+    h3,
+    h5,
+    p {
+        text-align: center;
+    }
 }
